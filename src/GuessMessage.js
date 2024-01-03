@@ -25,3 +25,4 @@ function GuessMessage({ guess, numberToGuess, numberOfGuesses }) {
 }
 
 export default GuessMessage;
+
