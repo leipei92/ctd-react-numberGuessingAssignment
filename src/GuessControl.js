@@ -16,14 +16,14 @@ const GuessControl = ({ onGuess }) => {
   }
 
   return (
-    <div>
+    <form>
       <input
         type="number"
         value={currentGuess}
         onChange={handleInputChange}
       />
       <Button onClick={onSubmitGuess}>Submit Guess</Button>
-    </div>
+    </form>
   );
 }
 
