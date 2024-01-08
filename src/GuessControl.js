@@ -15,7 +15,6 @@ const GuessControl = ({ onGuess }) => {
     setCurrentGuess("");
   }
 
-
   return (
     <div>
       <input
@@ -26,9 +25,6 @@ const GuessControl = ({ onGuess }) => {
       <Button onClick={onSubmitGuess}>Submit Guess</Button>
     </div>
   );
-
-
-
 }
 
 export default GuessControl;
